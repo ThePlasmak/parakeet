@@ -2,7 +2,9 @@
 
 A skill for your OpenClaw agent that uses NVIDIA's Parakeet TDT models via the NeMo toolkit for local speech-to-text.
 
-The default `parakeet-tdt-0.6b-v3` is a 600-million-parameter multilingual ASR model that delivers **state-of-the-art accuracy** with **automatic punctuation and capitalization**, word-level timestamps, and an insane **~3380× realtime** inference speed on GPU. Only needs ~2GB VRAM.
+The default `parakeet-tdt-0.6b-v3` is a 600-million-parameter multilingual ASR model that is extremely accurate, automatically adds punctuation and adjusts capitalization, supports word-level timestamps, and has a whooping **~3380× realtime** inference speed.
+
+Only needs ~2GB VRAM, but you **need a NVIDIA GPU**.
 
 ## Features
 
