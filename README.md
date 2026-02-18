@@ -27,7 +27,9 @@ To achieve its advertised performance, however, **you need a NVIDIA GPU**.
 
 ## See Also
 
-**[faster-whisper](https://github.com/ThePlasmak/faster-whisper)** — If you need speaker diarization, more subtitle formats (SRT/VTT/ASS/TTML/LRC/HTML), 99+ language support, Windows/macOS compatibility, or advanced features like transcript search, chapter detection, RSS podcast transcription, and audio preprocessing — faster-whisper is the better pick. It's still fast (~20× realtime on GPU with distil-large-v3.5).
+- **[faster-whisper](https://github.com/ThePlasmak/faster-whisper)**
+  - If you need speaker diarization, more subtitle formats (SRT/VTT/ASS/TTML/LRC/HTML), 99+ language support, Windows/macOS compatibility, or advanced features like transcript search, chapter detection, and RSS podcast transcription — faster-whisper is the better pick
+  - It's still fast (~20× realtime on GPU with distil-large-v3.5).
 
 ## Setup
 
