@@ -1,0 +1,32 @@
+{
+  "name": "parakeet",
+  "version": "1.0.0",
+  "description": "Local speech-to-text using NVIDIA Parakeet TDT (NeMo). 600M-param multilingual ASR with auto-punctuation, word timestamps, and ~3380x realtime speed on GPU. 25 European languages.",
+  "author": "Sarah Mak",
+  "tags": [
+    "parakeet",
+    "nemo",
+    "nvidia",
+    "transcription",
+    "speech-to-text",
+    "gpu",
+    "cuda",
+    "audio",
+    "ml",
+    "multilingual",
+    "asr"
+  ],
+  "requires": {
+    "bins": [
+      "python3"
+    ],
+    "optionalBins": [
+      "ffmpeg",
+      "yt-dlp"
+    ]
+  },
+  "platforms": [
+    "linux",
+    "wsl2"
+  ]
+}

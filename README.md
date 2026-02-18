@@ -1,0 +1,34 @@
+# parakeet
+
+A skill for your OpenClaw agent that uses NVIDIA's Parakeet TDT models via the NeMo toolkit for local speech-to-text.
+
+The default `parakeet-tdt-0.6b-v3` is a 600-million-parameter multilingual ASR model that delivers **state-of-the-art accuracy** with **automatic punctuation and capitalization**, word-level timestamps, and an insane **~3380× realtime** inference speed on GPU. Only needs ~2GB VRAM.
+
+## Features
+
+- **~3380× realtime** on GPU — transcribe 1 hour of audio in ~1 second
+- **Automatic punctuation & capitalization** — clean, readable output with no post-processing
+- **25 European languages** with automatic language detection
+- **Word, segment, and char-level timestamps**
+- **SRT/VTT subtitle export** with configurable line length
+- **Batch processing** with ETA and per-file progress
+- **URL/YouTube input** via yt-dlp
+- **Long-form audio** up to 3 hours via chunked inference
+- **Streaming output** — prints results as they arrive
+
+## Requirements
+
+- Python 3.10+
+- NVIDIA GPU with CUDA (RTX 3070 or better recommended)
+- `ffmpeg` (optional, for format conversion)
+- `yt-dlp` (optional, for URL/YouTube input)
+
+## Setup
+
+```bash
+bash setup.sh
+```
+
+## Usage
+
+See `SKILL.md` for full usage documentation and examples.
