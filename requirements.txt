@@ -1,0 +1,3 @@
+# Core dependencies — PyTorch installed separately by setup script (with CUDA if GPU detected)
+nemo_toolkit[asr]
+soundfile

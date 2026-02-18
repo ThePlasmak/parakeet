@@ -6,3 +6,11 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.mp4
+IMPROVEMENTS-SUMMARY.md
+TEST-SCENARIOS.md
