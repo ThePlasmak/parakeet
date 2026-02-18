@@ -2,7 +2,7 @@
 name: parakeet
 description: "Local speech-to-text using NVIDIA Parakeet TDT (NeMo). 600M-param multilingual ASR with automatic punctuation/capitalization, word-level timestamps, and ~3380x realtime speed on GPU. Supports 25 European languages with auto-detection, long-form audio up to 3 hours, streaming output, SRT/VTT subtitles, batch processing, and URL/YouTube input."
 version: 1.0.0
-author: Sarah Mak
+author: ThePlasmak
 tags:
   [
     "audio",
